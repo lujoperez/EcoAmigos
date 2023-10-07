@@ -1,0 +1,97 @@
+/* COLORES: 
+#f5f5f5
+#f3fff5
+#055612
+#09821D
+#C2C2C2
+#F4F4F4
+#000000
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #f3fff5; */
+  background-color: #f5f5f5;
+  background-image: url('../../topography.svg');
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAV */
+
+.logo {
+  width: 150px;
+}
+
+.active {
+  background-color: #055612;
+  padding: 8px 16px;
+  color: #F4F4F4;
+  border-radius: 5px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0 20px 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: #055612;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+/* MAIN HOME */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.homeText {
+  width: 50vw;
+  margin: 20px 40px;
+  padding: 20px 20px;
+}
+
+.homeText p {
+  color: #8f8f8f;
+  margin-top: 20px;
+}
+
+.homeImg {
+  width: 38vw;
+}
+
+.green {
+  color: #055612;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cicleTitle {
+  position: absolute;
+  margin-left: -100px;
+  width: 300px;
+  opacity: 0.5;
+}
